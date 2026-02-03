@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>המדריך לעצמאות כלכלית | חיסכון לכל ילד</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #0066cc;
+            --secondary-color: #f0f4f8;
+            --text-color: #333;
+            --highlight-color: #e6f7ff;
+            --intro-bg: #fff8e1; 
+            --intro-border: #ffc107;
+            --info-bg: #e8f5e9;
+            --info-border: #4caf50;
+            --card-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        body {
+            font-family: 'Rubik', sans-serif;
+            background-color: #fff;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 20px 0;
+            border-bottom: 2px solid var(--secondary-color);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        p.subtitle {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 0;
+        }
+
+        /* עיצוב לפסקה הפותחת */
+        .intro-box {
+            background-color: var(--intro-bg);
+            border-right: 4px solid var(--intro-border);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        
+        /* עיצוב לתיבת הזכאות */
+        .eligibility-box {
+            background-color: var(--info-bg);
+            border: 1px solid var(--info-border);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+        
+        .eligibility-icon {
+            font-size: 1.5rem;
+        }
+
+        .step-card {
+            background: #fff;
+            border: 1px solid #e1e1e1;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: var(--card-shadow);
+        }
+
+        .step-number {
+            background-color: var(--primary-color);
+            color: white;
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 1.4rem;
+        }
+
+        .cta-button {
+            display: block;
+            width: 100%;
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-top: 15px;
+            box-sizing: border-box;
+            transition: background 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #0052a3;
+        }
+
+        .tip-box {
+            background-color: var(--highlight-color);
+            border-right: 4px solid var(--primary-color);
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 4px;
+            font-size: 0.95rem;
+        }
+
+        /* עיצוב הטבלה */
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        
+        .comparison-table th, .comparison-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .comparison-table th {
+            background-color: var(--secondary-color);
+            font-weight: bold;
+        }
+
+        ul {
+            padding-right: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #888;
+            border-top: 1px solid #eee;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.5rem; }
+            .container { padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>המדריך לעצמאות כלכלית 🇮🇱</h1>
+            <p class="subtitle">כך תאתרו ותמשכו את כספי "חיסכון לכל ילד".</p>
+        </header>
+
+        <div class="intro-box">
+            <p>👋 הגעת לגיל 18? מזל טוב! זה הצעד הראשון שלך בעולם הפיננסי.<br>
+            במשך השנים, המידע על החסכונות שלנו לפעמים הולך לאיבוד בין הניירת בבית. המדריך הזה יעזור לך לעשות סדר, לקחת אחריות ולמצוא את החיסכון שלך – בקלות ובמהירות.</p>
+        </div>
+
+        <div class="eligibility-box">
+            <span class="eligibility-icon">✅</span>
+            <div>
+                <strong>רגע, האם יש לי בכלל חיסכון כזה?</strong><br>
+                התשובה היא כמעט בוודאות: <strong>כן.</strong><br>
+                תוכנית "חיסכון לכל ילד" החלה בינואר 2017 עבור כל הילדים שהיו אז מתחת לגיל 18.
+                אם את/ה בן/בת 18 היום – יש לך תוכנית חיסכון שהמדינה פתחה עבורך.
+            </div>
+        </div>
+
+        <div class="step-card">
+            <span class="step-number">שלב 1</span>
+            <h2>איפה הכסף נמצא?</h2>
+            <p>הכסף שלכם נמצא או בבנק או בקופת גמל. כדי לדעת איפה בדיוק:</p>
+            <ol>
+                <li>לוחצים על הכפתור למטה לאתר <strong>"הר הכסף"</strong>.</li>
+                <li>במסך שייפתח, חפשו את הריבוע הירוק: <strong>"מה נמצא על שמי?"</strong> ולחצו על הכפתור <strong>"חיפוש כספים על שמי"</strong>.</li>
+                <li><strong>שימו לב:</strong> המערכת תעביר אתכם למסך "הזדהות ממשלתית".
+                    <ul>
+                        <li>אם יש לכם כבר סיסמה לאתרים ממשלתיים, הקלידו אותה.</li>
+                        <li>אם לא – לחצו על <strong>"להרשמה"</strong> בצד ימין ובצעו רישום קצר (תצטרכו תעודת זהות וכרטיס אשראי לאימות).</li>
+                    </ul>
+                </li>
+                <li>אחרי הכניסה תראו את תוצאות החיפוש. <strong>צלמו מסך!</strong> שם הגוף שיופיע (למשל: "אלטשולר שחם" או "בנק לאומי") הוא מי שמחזיק בכסף שלכם.</li>
+            </ol>
+            <a href="https://itur.mof.gov.il/home/shuk" target="_blank" class="cta-button">למעבר לאתר "הר הכסף" >></a>
+        </div>
+
+        <div class="step-card">
+            <span class="step-number">שלב 2</span>
+            <h2>איך מקבלים גישה לחשבון?</h2>
+            <p>לרוב הטלפון שמעודכן במערכת הוא ישן או שייך להורים. כדי לנהל את הכסף בעצמכם, עליכם לעדכן את הטלפון שלכם.</p>
+            
+            <h3>אם הכסף בבנק 🏦</h3>
+            <p>גשו פיזית לכל סניף של אותו בנק עם תעודת זהות ובקשו מהפקיד לעדכן את הטלפון שלכם בחשבון "חיסכון לכל ילד".</p>
+            
+            <h3>אם הכסף בקופת גמל 📈</h3>
+            <p>חפשו בגוגל את הטלפון של שירות הלקוחות (למשל: "הראל שירות לקוחות"). התקשרו ובקשו לעדכן נייד ומייל כדי לקבל גישה לאזור האישי.</p>
+        </div>
+
+        <div class="step-card">
+            <span class="step-number">שלב 3</span>
+            <h2>מתי כדאי למשוך את הכסף?</h2>
+            <p>יש שתי נקודות יציאה. תחשבו מה נכון לכם:</p>
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>גיל 18</th>
+                        <th>גיל 21</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>אישור</strong></td>
+                        <td>חייב חתימת הורים</td>
+                        <td>ללא הורים (עצמאי)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>מענק</strong></td>
+                        <td>568 ₪</td>
+                        <td>568 ₪ + 568 ₪ נוספים</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="tip-box">
+                💡 <strong>טיפ:</strong> אם אתם לא חייבים את הכסף דחוף, שווה לחכות לגיל 21 ולקבל מענק כפול מהמדינה.
+            </div>
+        </div>
+
+        <div class="step-card">
+            <span class="step-number">שלב 4</span>
+            <h2>איך מעבירים את הכסף אליכם?</h2>
+            <p>הכסף עובר רק לחשבון בנק שרשום <strong>על שמכם</strong>.</p>
+            <ul>
+                <li><strong>פתחו חשבון בנק:</strong> אם אין לכם עדיין, גשו לבנק ופתחו חשבון צעיר/חייל.</li>
+                <li><strong>השיגו "אישור ניהול חשבון":</strong> מורידים אותו בשניות מהאפליקציה של הבנק שלכם.</li>
+                <li><strong>בצעו את המשיכה:</strong> נכנסים לאתר הגוף המנהל (עם הסיסמה שיש לכם משלב 2), וממלאים טופס משיכה דיגיטלי.</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>נכתב במטרה לעזור לנוער לקחת אחריות כלכלית ❤️<br>
+            המידע מבוסס על נתוני משרד האוצר והביטוח הלאומי.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
